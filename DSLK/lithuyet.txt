@@ -1,0 +1,11 @@
+- Data: Componet mỗi nốt cho phép mỗi node trong danh sách liên kết lưu trữ một phần 
+tử dữ liệu. Phần tử này có thể là string, character, number, hoặc bất kì dữ liệu nào khác
+
+- Next(con trỏ): Component thứ hai, là một con trỏ pointer() trỏ từ node hiện tại đến 
+node tiếp theo trong danh sách liên kết. Component next giúp kết nối các node lại với nhau
+tạo thành chuỗi liên kết
+
+
+- Xóa 1 phần tử: Nếu node cần xóa không phải là node đầu tiên, ta sẽ duyệt danh sách các node
+dến node tìm được. Sau khi tìm thấy, ta cập nhật con trỏ next của node trước này để trỏ
+đến node tiếp theo cần xóa

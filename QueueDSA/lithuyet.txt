@@ -1,0 +1,9 @@
+- Queue
+
+- Enqueue: Thêm một phần tử mới vào hàng đợi
+- Dequeue: Xóa và trả về phần tử đầu tiên (phía trước) khỏi hàng đợi
+- Peek: Trả về phần tử đầu tiên trong hàng đợi
+- isEmpty: Kiểm tra xem hàng đợi có trống không
+- Size: Tìm số lượng phần tử trong hàng đợi
+- s[0]:  Trả về phần tử đầu hàng đợi s
+- s[-1]: Trả về phần tử cuối hàng đợi s
