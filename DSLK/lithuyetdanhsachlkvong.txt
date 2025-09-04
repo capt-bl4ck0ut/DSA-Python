@@ -1,0 +1,8 @@
+Giới thiệu về danh sách liên kết vòng
+
+Danh sách liên kết vòng là một biến thể của Danh sách liên kết đơn và danh sách liên kết đôi
+đều có thể được tạo thành dạng danh sách liên kết vòng
+
+Việc xử lí trên danh sách liên kết vòng cũng tương tự như danh sách liên kết nhưng chú 
+ý không được làm mất tín liên kết vòng trong lúc xử lí
+
