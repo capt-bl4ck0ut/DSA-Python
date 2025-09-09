@@ -1,0 +1,34 @@
+Thuật toán tìm kiếm tuyến tính đơn giản dùng để tìm kiếm một biểu thức phần tử cụ thể
+trong một danh sách
+
+- Thuật toán này hoạt động bằng cách duyệt qua các danh sách cho đến khi tìm kiếm được
+phần tử tìm thấy
+
+- Thuật toán tìm kiếm tuyến tính có độ phức tạp là O(n) thời gian tìm kiếm tuyến tính
+tăng theo phần tử
+
+
++ Thuật toán tìm kiếm nhị phân là một phương pháp hiệu quả trong các danh sách được sắp xếp
+. Thay vì duyệt từng phần tử trong danh sách , thuật toán tìm kiếm nhị phân chia danh sách
+thành nửa và chỉ tìm kiếm trong nửa phù hợp với giá trị tìm kiếm 
+
+1. Đưa ra danh sách cần tìm kiếm và giá trị cần tìm kiếm.
+2. Xác định phần tử giữa của danh sách.
+3. So sánh giá trị cần tìm kiếm với phần tử giữa của danh sách.
+4. Nếu giá trị cần tìm kiếm bằng phần tử giữa của danh sách, trả về vị trí của phần tử trong danh sách.
+5. Nếu giá trị cần tìm kiếm nhỏ hơn phần tử giữa của danh sách, thực hiện thuật toán tìm kiếm nhị phân trên nửa đầu tiên của danh sách.
+6. Nếu giá trị cần tìm kiếm lớn hơn phần tử giữa của danh sách, thực hiện thuật toán tìm kiếm nhị phân trên nửa thứ hai của danh sách.
+7. Lặp lại các bước 2 đến 6 cho đến khi tìm thấy phần tử cần tìm kiếm hoặc không còn phần tử nào để tìm kiếm.
+
+## Độ phức tạp của thuật toán
+Do danh sách đã được sắp xếp trước khi thực hiện thuật toán tìm kiếm nhị phân,
+nên độ phức tạp của thuật toán là O(log n), nghĩa là thời gian tìm kiếm sẽ giảm theo
+số lượng phần tử trong danh sách. Tuy nhiên, nếu danh sách chưa được sắp xếp thì 
+trước tiên cần phải sắp xếp danh sách và độ phức tạp của thuật toán sẽ tăng lên 
+thành O(n log n) do phải sắp xếp trước khi thực hiện tìm kiếm nhị phân.
+ Mặc dù vậy, thuật toán tìm kiếm nhị phân vẫn tối ưu hơn thuật toán tìm kiếm tuyến tính. Đây là một thuật toán hay được áp dụng để giải quyết các bài toán đòi hỏi về tốc độ tính toán.
+
+
+## Hàm Bisect
+Hàm tìm kiếm nhị phân có sẵn được gọi là bisect. Hàm này cho phép tìm kiếm một giá trị
+trong một danh sách đã được sắp xếp theo thứ tự tăng dần và trả về vị trí giá trị đó trong danh sách
