@@ -1,0 +1,3 @@
+Thuật toán này sẽ chia ra 2 phần: được săp xếp và chưa được sắp xếp. Chúng
+ta liên tục xóa phân tử nhỏ nhất của phân đoạn chưa sắp xếp của danh sách và
+nối nó vào phân đoạn đã sắp xếp

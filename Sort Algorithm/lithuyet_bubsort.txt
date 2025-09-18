@@ -1,0 +1,3 @@
+
+Thuật toán này lặp qua các danh sách, so sánh các phần tử theo cặp và hoán đổi
+chúng cho đến khi các phần tử lớn hơn đến cuối danh sách 
