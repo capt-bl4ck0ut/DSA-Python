@@ -1,17 +1,17 @@
 import sys
 
-def factorial(x):
-    if x == 0 or x == 1:
+def game(n):
+    if n == 1:
         return 1
     else:
-        return x * factorial(x - 1)
+        return 1 + game(n-(n+1)//2)
 
 def main():
     data = sys.stdin.read().strip()
     if not data:
         return
-    x = int(data)
-    print(factorial(x))
+    n = int(data)
+    print(game(n))
 
 if __name__ == "__main__":
     main()
